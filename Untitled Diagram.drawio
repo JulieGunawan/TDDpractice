@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T14:59:11.669Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="HAY5ebAepHgPaIfbUzNq" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T15:00:24.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="D5oxiCrZcCKk_HRZxVq4" version="21.6.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -914,8 +914,13 @@
         <mxCell id="8yeQZe6ikizOavwW8rrS-92" value="Pass!" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="872" y="3700" width="64" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8yeQZe6ikizOavwW8rrS-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8yeQZe6ikizOavwW8rrS-94" target="8yeQZe6ikizOavwW8rrS-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="3710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8yeQZe6ikizOavwW8rrS-94" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="3570" width="220" height="240" as="geometry">
+          <mxGeometry x="434" y="3560" width="220" height="240" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -936,6 +941,29 @@
         </mxCell>
         <mxCell id="8yeQZe6ikizOavwW8rrS-100" value="Now edit the equals function, to cast it to Money object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="689" y="3657.5" width="122" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeQZe6ikizOavwW8rrS-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8yeQZe6ikizOavwW8rrS-103" target="8yeQZe6ikizOavwW8rrS-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeQZe6ikizOavwW8rrS-103" value="Update the variable to money, instead of dollar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="277" y="3650" width="122" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeQZe6ikizOavwW8rrS-105" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="24" y="3588.75" width="220" height="240" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8yeQZe6ikizOavwW8rrS-106" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="8yeQZe6ikizOavwW8rrS-105">
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeQZe6ikizOavwW8rrS-107" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="8yeQZe6ikizOavwW8rrS-105">
+          <mxGeometry y="34" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeQZe6ikizOavwW8rrS-108" value="Dollar: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="8yeQZe6ikizOavwW8rrS-105">
+          <mxGeometry y="94" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8yeQZe6ikizOavwW8rrS-109" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="8yeQZe6ikizOavwW8rrS-105">
+          <mxGeometry y="148" width="220" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
