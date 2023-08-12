@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T22:31:24.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ONs_WBNoh0zPgVhz0yDx" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-12T01:41:40.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5s55y9iW8v5BGz7FvzpK" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1365,7 +1365,7 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.551;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-100" target="JCzHHjYNAlHYRe-MHADI-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JCzHHjYNAlHYRe-MHADI-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-125">
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-125" target="JCzHHjYNAlHYRe-MHADI-131">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="5660" as="targetPoint" />
           </mxGeometry>
@@ -1393,8 +1393,62 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-131" value="Awesome!" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="827" y="5630" width="90" height="61.25" as="geometry" />
         </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-133" target="JCzHHjYNAlHYRe-MHADI-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-133" value="Summary:&lt;br&gt;1. Took a step toward eliminating duplication by reconciling the signatures of two variants of the same method - times()&lt;br&gt;2. Move at least a declaration of the moethod to the common superclass -&amp;gt; make it abstract method&lt;br&gt;3. Decoupled test code from the existence of concrete subclasses by introducing factory methods.&lt;br&gt;4. Noticed that when the subclasses disappear, some tests will be redundant, but took no action" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="950" y="5505.31" width="240" height="214.69" as="geometry" />
+          <mxGeometry x="950" y="5500" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.479;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-135" target="JCzHHjYNAlHYRe-MHADI-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="5620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-135" value="Next, how do we test currency?" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1270" y="5490" width="105" height="91.33" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-137" target="JCzHHjYNAlHYRe-MHADI-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-137" value="Unit Test" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1340" y="5650" width="290" height="120" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-138" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-137">
+          <mxGeometry y="26" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-139" value="testCurrency(){&lt;br&gt;&amp;nbsp; assertEquals(&quot;USD&quot;, Money.dollar(1).currency());&lt;br&gt;&amp;nbsp; assertEquals(&quot;CHF&quot;, Money.franc(1).currency());&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-137">
+          <mxGeometry y="34" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-145" target="JCzHHjYNAlHYRe-MHADI-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-145" value="This wouldn&#39;t do, so we need to implement abstract currency() method and implement the function in the subclasses" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1397.75" y="5860" width="174.5" height="101.33" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-147" value="abstract Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1074.5" y="5845" width="241" height="280" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-148" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-147">
+          <mxGeometry y="26" width="241" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-149" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-147">
+          <mxGeometry y="52" width="241" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-152" value="public abstract Money: times(int multiplier);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-147">
+          <mxGeometry y="60" width="241" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-154" value="public abstract String: currency();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-147">
+          <mxGeometry y="100" width="241" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-150" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; getClass().equals(money.getClass());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-147">
+          <mxGeometry y="140" width="241" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-151" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-147">
+          <mxGeometry y="220" width="241" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
