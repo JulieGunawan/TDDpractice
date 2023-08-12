@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-12T02:03:00.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8S5eb3V7dd5rM0h2L9dP" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-12T02:06:12.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="qiJf27FQty3NX_SosaEh" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="Dollar(int amount)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="Dollar(int amount)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="60" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K9V3QC0t0sdOItGHkeq5-0" value="void: times(int multiplier)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
@@ -334,7 +334,7 @@
         <mxCell id="K9V3QC0t0sdOItGHkeq5-7" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K9V3QC0t0sdOItGHkeq5-5" vertex="1">
           <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="K9V3QC0t0sdOItGHkeq5-8" value="Dollar(int amount)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="K9V3QC0t0sdOItGHkeq5-5" vertex="1">
+        <mxCell id="K9V3QC0t0sdOItGHkeq5-8" value="Dollar(int amount)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="K9V3QC0t0sdOItGHkeq5-5" vertex="1">
           <mxGeometry y="60" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K9V3QC0t0sdOItGHkeq5-9" value="void: times(int multiplier)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="K9V3QC0t0sdOItGHkeq5-5" vertex="1">
@@ -407,7 +407,7 @@
         <mxCell id="K9V3QC0t0sdOItGHkeq5-32" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K9V3QC0t0sdOItGHkeq5-30" vertex="1">
           <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="K9V3QC0t0sdOItGHkeq5-33" value="Dollar(int amount)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="K9V3QC0t0sdOItGHkeq5-30" vertex="1">
+        <mxCell id="K9V3QC0t0sdOItGHkeq5-33" value="Dollar(int amount)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="K9V3QC0t0sdOItGHkeq5-30" vertex="1">
           <mxGeometry y="60" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K9V3QC0t0sdOItGHkeq5-34" value="void: times(int multiplier){&#xa;amount = 5*2;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="K9V3QC0t0sdOItGHkeq5-30" vertex="1">
@@ -430,7 +430,7 @@
         <mxCell id="K9V3QC0t0sdOItGHkeq5-41" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K9V3QC0t0sdOItGHkeq5-39" vertex="1">
           <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="K9V3QC0t0sdOItGHkeq5-42" value="Dollar(int amount){&#xa;this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="K9V3QC0t0sdOItGHkeq5-39" vertex="1">
+        <mxCell id="K9V3QC0t0sdOItGHkeq5-42" value="Dollar(int amount){&#xa;this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="K9V3QC0t0sdOItGHkeq5-39" vertex="1">
           <mxGeometry y="60" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K9V3QC0t0sdOItGHkeq5-43" value="void: times(int multiplier){&#xa;amount *= multiplier;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="K9V3QC0t0sdOItGHkeq5-39" vertex="1">
@@ -476,7 +476,7 @@
         <mxCell id="K9V3QC0t0sdOItGHkeq5-61" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="K9V3QC0t0sdOItGHkeq5-59" vertex="1">
           <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="K9V3QC0t0sdOItGHkeq5-62" value="Dollar(int amount){&#xa;this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="K9V3QC0t0sdOItGHkeq5-59" vertex="1">
+        <mxCell id="K9V3QC0t0sdOItGHkeq5-62" value="Dollar(int amount){&#xa;this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="K9V3QC0t0sdOItGHkeq5-59" vertex="1">
           <mxGeometry y="60" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K9V3QC0t0sdOItGHkeq5-63" value="Dollar: times(int multiplier){&#xa;return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="K9V3QC0t0sdOItGHkeq5-59" vertex="1">
@@ -541,7 +541,7 @@
         <mxCell id="sm6hCxYUHyvjrTaqmcDS-18" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sm6hCxYUHyvjrTaqmcDS-16" vertex="1">
           <mxGeometry y="52" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="sm6hCxYUHyvjrTaqmcDS-19" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="sm6hCxYUHyvjrTaqmcDS-16" vertex="1">
+        <mxCell id="sm6hCxYUHyvjrTaqmcDS-19" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="sm6hCxYUHyvjrTaqmcDS-16" vertex="1">
           <mxGeometry y="60" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sm6hCxYUHyvjrTaqmcDS-20" value="Dollar: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sm6hCxYUHyvjrTaqmcDS-16" vertex="1">
@@ -584,7 +584,7 @@
         <mxCell id="sm6hCxYUHyvjrTaqmcDS-32" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sm6hCxYUHyvjrTaqmcDS-30" vertex="1">
           <mxGeometry y="52" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="sm6hCxYUHyvjrTaqmcDS-33" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="sm6hCxYUHyvjrTaqmcDS-30" vertex="1">
+        <mxCell id="sm6hCxYUHyvjrTaqmcDS-33" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="sm6hCxYUHyvjrTaqmcDS-30" vertex="1">
           <mxGeometry y="60" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sm6hCxYUHyvjrTaqmcDS-34" value="Dollar: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sm6hCxYUHyvjrTaqmcDS-30" vertex="1">
@@ -710,7 +710,7 @@
         <mxCell id="8yeQZe6ikizOavwW8rrS-29" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8yeQZe6ikizOavwW8rrS-27" vertex="1">
           <mxGeometry y="52" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8yeQZe6ikizOavwW8rrS-30" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="8yeQZe6ikizOavwW8rrS-27" vertex="1">
+        <mxCell id="8yeQZe6ikizOavwW8rrS-30" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="8yeQZe6ikizOavwW8rrS-27" vertex="1">
           <mxGeometry y="60" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8yeQZe6ikizOavwW8rrS-31" value="Dollar: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8yeQZe6ikizOavwW8rrS-27" vertex="1">
@@ -759,7 +759,7 @@
         <mxCell id="8yeQZe6ikizOavwW8rrS-45" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8yeQZe6ikizOavwW8rrS-43" vertex="1">
           <mxGeometry y="52" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8yeQZe6ikizOavwW8rrS-46" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="8yeQZe6ikizOavwW8rrS-43" vertex="1">
+        <mxCell id="8yeQZe6ikizOavwW8rrS-46" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="8yeQZe6ikizOavwW8rrS-43" vertex="1">
           <mxGeometry y="60" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8yeQZe6ikizOavwW8rrS-47" value="Franc: times(int multiplier){&#xa;  return new Franc(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8yeQZe6ikizOavwW8rrS-43" vertex="1">
@@ -817,7 +817,7 @@
         <mxCell id="8yeQZe6ikizOavwW8rrS-66" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8yeQZe6ikizOavwW8rrS-64" vertex="1">
           <mxGeometry y="52" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8yeQZe6ikizOavwW8rrS-67" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="8yeQZe6ikizOavwW8rrS-64" vertex="1">
+        <mxCell id="8yeQZe6ikizOavwW8rrS-67" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="8yeQZe6ikizOavwW8rrS-64" vertex="1">
           <mxGeometry y="60" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8yeQZe6ikizOavwW8rrS-68" value="Dollar: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8yeQZe6ikizOavwW8rrS-64" vertex="1">
@@ -863,7 +863,7 @@
         <mxCell id="8yeQZe6ikizOavwW8rrS-86" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8yeQZe6ikizOavwW8rrS-84" vertex="1">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8yeQZe6ikizOavwW8rrS-87" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="8yeQZe6ikizOavwW8rrS-84" vertex="1">
+        <mxCell id="8yeQZe6ikizOavwW8rrS-87" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="8yeQZe6ikizOavwW8rrS-84" vertex="1">
           <mxGeometry y="34" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8yeQZe6ikizOavwW8rrS-88" value="Dollar: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8yeQZe6ikizOavwW8rrS-84" vertex="1">
@@ -900,7 +900,7 @@
         <mxCell id="8yeQZe6ikizOavwW8rrS-95" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8yeQZe6ikizOavwW8rrS-94" vertex="1">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8yeQZe6ikizOavwW8rrS-96" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="8yeQZe6ikizOavwW8rrS-94" vertex="1">
+        <mxCell id="8yeQZe6ikizOavwW8rrS-96" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="8yeQZe6ikizOavwW8rrS-94" vertex="1">
           <mxGeometry y="34" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8yeQZe6ikizOavwW8rrS-97" value="Dollar: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8yeQZe6ikizOavwW8rrS-94" vertex="1">
@@ -932,7 +932,7 @@
         <mxCell id="8yeQZe6ikizOavwW8rrS-106" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8yeQZe6ikizOavwW8rrS-105" vertex="1">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8yeQZe6ikizOavwW8rrS-107" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="8yeQZe6ikizOavwW8rrS-105" vertex="1">
+        <mxCell id="8yeQZe6ikizOavwW8rrS-107" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="8yeQZe6ikizOavwW8rrS-105" vertex="1">
           <mxGeometry y="34" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8yeQZe6ikizOavwW8rrS-108" value="Dollar: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8yeQZe6ikizOavwW8rrS-105" vertex="1">
@@ -974,7 +974,7 @@
         <mxCell id="8yeQZe6ikizOavwW8rrS-119" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="8yeQZe6ikizOavwW8rrS-118" vertex="1">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="8yeQZe6ikizOavwW8rrS-120" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="8yeQZe6ikizOavwW8rrS-118" vertex="1">
+        <mxCell id="8yeQZe6ikizOavwW8rrS-120" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="8yeQZe6ikizOavwW8rrS-118" vertex="1">
           <mxGeometry y="34" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8yeQZe6ikizOavwW8rrS-121" value="Dollar: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8yeQZe6ikizOavwW8rrS-118" vertex="1">
@@ -1078,7 +1078,7 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-14" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-13">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JCzHHjYNAlHYRe-MHADI-15" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-13">
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-15" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-13">
           <mxGeometry y="34" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-16" value="Franc: times(int multiplier){&#xa;  return new Franc(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-13">
@@ -1173,7 +1173,7 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-49" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-48">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JCzHHjYNAlHYRe-MHADI-50" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-48">
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-50" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-48">
           <mxGeometry y="34" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-51" value="Money: times(int multiplier){&#xa;  return new Franc(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-48">
@@ -1190,7 +1190,7 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-53" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-52">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JCzHHjYNAlHYRe-MHADI-54" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-52">
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-54" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-52">
           <mxGeometry y="34" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-55" value="Money: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-52">
@@ -1458,7 +1458,7 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-156" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-155">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JCzHHjYNAlHYRe-MHADI-157" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-155">
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-157" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-155">
           <mxGeometry y="34" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-158" value="Money: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-155">
@@ -1478,7 +1478,7 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-161" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-160">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="JCzHHjYNAlHYRe-MHADI-162" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-160">
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-162" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-160">
           <mxGeometry y="34" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-163" value="Money: times(int multiplier){&#xa;  return new Franc(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-160">
@@ -1510,7 +1510,7 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-170" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-169">
           <mxGeometry y="50" width="220" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="JCzHHjYNAlHYRe-MHADI-171" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-169">
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-171" value="Franc(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-169">
           <mxGeometry y="60" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-172" value="Money: times(int multiplier){&#xa;  return new Franc(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-169">
@@ -1533,7 +1533,7 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-177" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-176">
           <mxGeometry y="50" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JCzHHjYNAlHYRe-MHADI-178" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-176">
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-178" value="Dollar(int amount){&#xa;  this.amount=amount&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-176">
           <mxGeometry y="70" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-179" value="Money: times(int multiplier){&#xa;  return new Dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-176">
@@ -1579,8 +1579,39 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-191" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-185">
           <mxGeometry y="246" width="241" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-194">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="6300.665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-194" value="If we run the testCurrency, we will get an error as we know the expected is the currency, but currency is never defined in subclasses (value is null)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="818" y="6240" width="152.5" height="121.33" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-197" target="JCzHHjYNAlHYRe-MHADI-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-197" value="Now, we move the constant string value (USD and CHF) to static factory method), by adding a parameter to the constructor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1005" y="6240" width="152.5" height="121.33" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-199" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1231" y="6199" width="220" height="228" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-200" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-199">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-201" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-199">
+          <mxGeometry y="50" width="220" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-202" value="Franc(int amount, String currency){&#xa;  this.amount=amount;&#xa;  this.currency = currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-199">
+          <mxGeometry y="60" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-203" value="Money: times(int multiplier){&#xa;  return new Franc(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-199">
+          <mxGeometry y="120" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JCzHHjYNAlHYRe-MHADI-204" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JCzHHjYNAlHYRe-MHADI-199">
+          <mxGeometry y="174" width="220" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
