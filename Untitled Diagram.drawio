@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T18:26:29.523Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Q2zRktSN4XTVZrIGksWy" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T18:29:05.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nx47bZZCvhJ6bh8dQrOf" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2040,7 +2040,7 @@
           <mxGeometry x="981" y="8080" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gDDXa2PxPaoqrczVFM1x-102" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="881" y="8210" width="269" height="230" as="geometry">
+          <mxGeometry x="840" y="8210" width="269" height="230" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -2059,8 +2059,11 @@
         <mxCell id="gDDXa2PxPaoqrczVFM1x-107" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-102">
           <mxGeometry y="174" width="269" height="54" as="geometry" />
         </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-109" target="gDDXa2PxPaoqrczVFM1x-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gDDXa2PxPaoqrczVFM1x-109" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1183.5" y="8210" width="272" height="238" as="geometry">
+          <mxGeometry x="1125.75" y="8210" width="272" height="238" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -2078,6 +2081,9 @@
         </mxCell>
         <mxCell id="gDDXa2PxPaoqrczVFM1x-114" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-109">
           <mxGeometry y="184" width="272" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-115" value="Summary:&lt;br&gt;1. Reconciled two methods: times() by frist inlining the m3ethonds they called and then replacing constant with variables&lt;br&gt;2. Tried a change (returning Money instead of Franc or Dollar) and let the tests tell us if it worked&lt;br&gt;3. Back out an experiment and wrote another test, Making the tests work made the experiement work" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1420" y="8210" width="220" height="252" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
