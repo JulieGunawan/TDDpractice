@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T17:01:21.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UCVJ5eljvDa5KCK4S2Mr" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T17:03:43.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2FFnJZIKlt10OkKGAXIY" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1810,8 +1810,54 @@
         <mxCell id="gDDXa2PxPaoqrczVFM1x-25" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-20">
           <mxGeometry y="184" width="225.25" height="54" as="geometry" />
         </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-30" target="gDDXa2PxPaoqrczVFM1x-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gDDXa2PxPaoqrczVFM1x-30" value="Summary:&lt;br&gt;1. We were a little stuck on big design ideas, so we worked on something small we noticed earlier.&lt;br&gt;2. Reconciled the two constructors by moving the variation to the caller (the factory method)&lt;br&gt;3. Interrupted a refactoring for a little twist, using factory method in times()&lt;br&gt;4. Repeated an analogous refactoring (to Dollar as what we did in Franc)&lt;br&gt;5. Pushed up the identical constructors" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="590" y="7128" width="220" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-31" value="Next, we need to try to move the times function up to the super class, so we need to go back and reversed the times function by calling a constructor instead...Whooops" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="870" y="7220" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-33" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1168" y="7070" width="272" height="230" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-34" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+          <mxGeometry y="26" width="272" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-35" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+          <mxGeometry y="50" width="272" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-36" value="Franc(int amount, String currency){&#xa;  this.amount=amount;&#xa;  this.currency = currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+          <mxGeometry y="60" width="272" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-37" value="Money: times(int multiplier){&#xa;  return new Franc(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+          <mxGeometry y="120" width="272" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-38" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+          <mxGeometry y="174" width="272" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-39" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1168" y="7320" width="272" height="238" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-40" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+          <mxGeometry y="26" width="272" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-41" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+          <mxGeometry y="50" width="272" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-42" value="Dollar(int amount, String currency){&#xa;  this.amount=amount;&#xa;  this.currency = currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+          <mxGeometry y="70" width="272" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-43" value="Money: times(int multiplier){&#xa;  return new Dollar(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+          <mxGeometry y="130" width="272" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-44" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+          <mxGeometry y="184" width="272" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
