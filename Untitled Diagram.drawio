@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T03:04:48.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pRLtuy5p1t7KyKHXvuDK" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T03:10:03.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Ktp4gFmIpti0fZx9zSLK" version="21.6.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2324,6 +2324,11 @@
         <mxCell id="WoO8JoDfozQIKAlJN786-45" value="Let&#39;s do addition!" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="872" y="10080" width="115" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.587;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-46" target="WoO8JoDfozQIKAlJN786-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="9950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WoO8JoDfozQIKAlJN786-46" value="Unit Test" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="940" y="9740" width="380" height="170" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
@@ -2334,6 +2339,64 @@
         </mxCell>
         <mxCell id="WoO8JoDfozQIKAlJN786-48" value="public void testSimpleAddition(){&lt;br&gt;&amp;nbsp; Money five = Money.dollar(5);&lt;br&gt;&amp;nbsp; Expression sum = five.plus(five);&lt;br&gt;&amp;nbsp; Bank bank = new Bank();&lt;br&gt;&amp;nbsp; Money reduced = bank.reduce(sum, &quot;USD)&lt;br&gt;&amp;nbsp; assertEquals(Money.dollar(10, reduced);&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WoO8JoDfozQIKAlJN786-46">
           <mxGeometry y="34" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-50" target="WoO8JoDfozQIKAlJN786-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-50" value="Money implements Expression" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1335" y="9960" width="240" height="530" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-51" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-52" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-53" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="78" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-54" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="86" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-55" value="public Money: times(int multiplier)&#xa;{return new Money(this.amount*multiplier,&#xa; this.currency;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="126" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-56" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; currency().equals(money.currency());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="190" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-57" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="270" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-58" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="334" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-59" value="public String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="384" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-61" value="public Expression: plus(Money addend){&#xa;  return new Money&#xa;  (amount + addend.amount, currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry y="438" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-60" target="WoO8JoDfozQIKAlJN786-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-60" value="But Money needs Expression plus --&amp;gt; Money needs to implement Expression and a new empty Bank class" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1335.5" y="9810" width="135.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-64" value="Bank" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1020" y="10270" width="240" height="120" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-65" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-64">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-67" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-64">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-68" value="Money reduce(Expression source, String to){&#xa;return null;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-64">
+          <mxGeometry y="60" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
