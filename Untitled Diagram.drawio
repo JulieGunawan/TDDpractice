@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T02:53:41.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9T1RbfwJsE_ImC6LvG5j" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T03:04:48.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pRLtuy5p1t7KyKHXvuDK" version="21.6.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2181,9 +2181,6 @@
         <mxCell id="gDDXa2PxPaoqrczVFM1x-148" value="Since testEquality has some duplication (as per logic), lets delete 2 lines and make it simpler. Then we can delete testFrancMultiplication" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="199" y="8480" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-150" target="gDDXa2PxPaoqrczVFM1x-156" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="gDDXa2PxPaoqrczVFM1x-150" value="Unit Test" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="45" y="8710" width="310" height="230" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
@@ -2197,9 +2194,6 @@
         </mxCell>
         <mxCell id="gDDXa2PxPaoqrczVFM1x-154" value="testEquality(){&lt;br&gt;&amp;nbsp; assertTrue(Money.dollar(5).equals(Money.dollar(5));&lt;br&gt;&amp;nbsp; assertFalse(Money.dollar(5).equals(Money.dollar(6));&lt;br&gt;&amp;nbsp; assertFalse(Money.franc(5).equals(Money.dollar(5));&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="gDDXa2PxPaoqrczVFM1x-150" vertex="1">
           <mxGeometry y="124" width="310" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-156" value="Let&#39;s do addition!" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="135" y="8990" width="115" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WoO8JoDfozQIKAlJN786-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-0" target="WoO8JoDfozQIKAlJN786-14">
           <mxGeometry relative="1" as="geometry" />
@@ -2316,8 +2310,30 @@
         <mxCell id="WoO8JoDfozQIKAlJN786-36" value="Dollar(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="WoO8JoDfozQIKAlJN786-33">
           <mxGeometry y="46" width="272" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-42" target="WoO8JoDfozQIKAlJN786-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="10375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WoO8JoDfozQIKAlJN786-42" value="Summary:&lt;br&gt;1. Finished gutting subclasses and delete them&lt;br&gt;2. Elimiated tests that made sense with the old code structure but were redundant with the new code structure" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="847.5" y="10300" width="220" height="150" as="geometry" />
+          <mxGeometry x="538" y="10050" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1.009;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-45" target="WoO8JoDfozQIKAlJN786-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-45" value="Let&#39;s do addition!" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="872" y="10080" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-46" value="Unit Test" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="940" y="9740" width="380" height="170" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-47" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-46">
+          <mxGeometry y="26" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-48" value="public void testSimpleAddition(){&lt;br&gt;&amp;nbsp; Money five = Money.dollar(5);&lt;br&gt;&amp;nbsp; Expression sum = five.plus(five);&lt;br&gt;&amp;nbsp; Bank bank = new Bank();&lt;br&gt;&amp;nbsp; Money reduced = bank.reduce(sum, &quot;USD)&lt;br&gt;&amp;nbsp; assertEquals(Money.dollar(10, reduced);&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WoO8JoDfozQIKAlJN786-46">
+          <mxGeometry y="34" width="380" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
