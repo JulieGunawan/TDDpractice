@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T19:51:40.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="wGLzsRrmdrkHaIimNgJS" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T02:40:25.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="iBpaPB4lQeN9s26v-xRn" version="21.6.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1668,7 +1668,7 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-220" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="JCzHHjYNAlHYRe-MHADI-215" vertex="1">
           <mxGeometry y="184" width="220.5" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-222" target="JCzHHjYNAlHYRe-MHADI-228">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-222" target="JCzHHjYNAlHYRe-MHADI-228" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-222" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -1691,13 +1691,13 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-227" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="JCzHHjYNAlHYRe-MHADI-222" vertex="1">
           <mxGeometry y="174" width="222" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-228" target="JCzHHjYNAlHYRe-MHADI-244">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-228" target="JCzHHjYNAlHYRe-MHADI-244" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-228" value="Next, make the factory method to pass &quot;CHF&quot; in the superclass" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="474" y="6667" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-238" target="gDDXa2PxPaoqrczVFM1x-2">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JCzHHjYNAlHYRe-MHADI-238" target="gDDXa2PxPaoqrczVFM1x-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JCzHHjYNAlHYRe-MHADI-238" value="abstract Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -1729,477 +1729,589 @@
         <mxCell id="JCzHHjYNAlHYRe-MHADI-246" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="JCzHHjYNAlHYRe-MHADI-238" vertex="1">
           <mxGeometry y="310" width="241" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-2" value="We want to push the constructor to super class, so let&#39;s create a constructor in Money class, and update our Dollar and Franc constructors" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-2" value="We want to push the constructor to super class, so let&#39;s create a constructor in Money class, and update our Dollar and Franc constructors" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="6630" width="157" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-4" value="abstract Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-4" value="abstract Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="33.5" y="7040" width="241" height="400" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-5" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-4">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-5" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-4" vertex="1">
           <mxGeometry y="26" width="241" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-6" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-4">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-6" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-4" vertex="1">
           <mxGeometry y="52" width="241" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-7" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-4">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-7" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-4" vertex="1">
           <mxGeometry y="78" width="241" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-9" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-4">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-9" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-4" vertex="1">
           <mxGeometry y="86" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-8" value="public abstract Money: times(int multiplier);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-4">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-8" value="public abstract Money: times(int multiplier);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-4" vertex="1">
           <mxGeometry y="126" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-13" value="public abstract String: currency();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-4">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-13" value="public abstract String: currency();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-4" vertex="1">
           <mxGeometry y="166" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-10" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; getClass().equals(money.getClass());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-4">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-10" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; getClass().equals(money.getClass());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-4" vertex="1">
           <mxGeometry y="206" width="241" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-11" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-4">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-11" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-4" vertex="1">
           <mxGeometry y="286" width="241" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-12" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-4">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-12" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-4" vertex="1">
           <mxGeometry y="350" width="241" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-14" target="gDDXa2PxPaoqrczVFM1x-10">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-14" target="gDDXa2PxPaoqrczVFM1x-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-14" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-14" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="328" y="7030" width="222" height="228" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-15" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-14">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-15" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="gDDXa2PxPaoqrczVFM1x-14" vertex="1">
           <mxGeometry y="26" width="222" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-16" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-14">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-16" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-14" vertex="1">
           <mxGeometry y="50" width="222" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-17" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-14">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-17" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-14" vertex="1">
           <mxGeometry y="60" width="222" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-18" value="Money: times(int multiplier){&#xa;  return Money.franc(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-14">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-18" value="Money: times(int multiplier){&#xa;  return Money.franc(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-14" vertex="1">
           <mxGeometry y="120" width="222" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-19" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-14">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-19" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-14" vertex="1">
           <mxGeometry y="174" width="222" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-20" target="gDDXa2PxPaoqrczVFM1x-10">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-20" target="gDDXa2PxPaoqrczVFM1x-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-20" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-20" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="324.75" y="7320" width="225.25" height="238" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-21" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-20">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-21" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="gDDXa2PxPaoqrczVFM1x-20" vertex="1">
           <mxGeometry y="26" width="225.25" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-22" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-20">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-22" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-20" vertex="1">
           <mxGeometry y="50" width="225.25" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-23" value="Dollar(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-20">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-23" value="Dollar(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-20" vertex="1">
           <mxGeometry y="70" width="225.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-24" value="Money: times(int multiplier){&#xa;  return Money.dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-20">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-24" value="Money: times(int multiplier){&#xa;  return Money.dollar(amount*multiplier);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-20" vertex="1">
           <mxGeometry y="130" width="225.25" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-25" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-20">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-25" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-20" vertex="1">
           <mxGeometry y="184" width="225.25" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-30" target="gDDXa2PxPaoqrczVFM1x-31">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-30" target="gDDXa2PxPaoqrczVFM1x-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-30" value="Summary:&lt;br&gt;1. We were a little stuck on big design ideas, so we worked on something small we noticed earlier.&lt;br&gt;2. Reconciled the two constructors by moving the variation to the caller (the factory method)&lt;br&gt;3. Interrupted a refactoring for a little twist, using factory method in times()&lt;br&gt;4. Repeated an analogous refactoring (to Dollar as what we did in Franc)&lt;br&gt;5. Pushed up the identical constructors" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-30" value="Summary:&lt;br&gt;1. We were a little stuck on big design ideas, so we worked on something small we noticed earlier.&lt;br&gt;2. Reconciled the two constructors by moving the variation to the caller (the factory method)&lt;br&gt;3. Interrupted a refactoring for a little twist, using factory method in times()&lt;br&gt;4. Repeated an analogous refactoring (to Dollar as what we did in Franc)&lt;br&gt;5. Pushed up the identical constructors" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="590" y="7128" width="220" height="252" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-31" target="gDDXa2PxPaoqrczVFM1x-34">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-31" target="gDDXa2PxPaoqrczVFM1x-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-31" target="gDDXa2PxPaoqrczVFM1x-44">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-31" target="gDDXa2PxPaoqrczVFM1x-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-31" value="Next, we need to try to move the times function up to the super class, so we need to go back and reversed the times function by calling a constructor instead...Whooops" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-31" value="Next, we need to try to move the times function up to the super class, so we need to go back and reversed the times function by calling a constructor instead...Whooops" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="870" y="7220" width="220" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-33" target="gDDXa2PxPaoqrczVFM1x-45">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-33" target="gDDXa2PxPaoqrczVFM1x-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-33" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-33" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1141" y="7060" width="269" height="230" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-34" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-34" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="gDDXa2PxPaoqrczVFM1x-33" vertex="1">
           <mxGeometry y="26" width="269" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-35" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-35" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-33" vertex="1">
           <mxGeometry y="50" width="269" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-36" value="Franc(int amount, String currency){&#xa;  this.amount=amount;&#xa;  this.currency = currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-36" value="Franc(int amount, String currency){&#xa;  this.amount=amount;&#xa;  this.currency = currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-33" vertex="1">
           <mxGeometry y="60" width="269" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-37" value="Money: times(int multiplier){&#xa;  return new Franc(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-37" value="Money: times(int multiplier){&#xa;  return new Franc(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-33" vertex="1">
           <mxGeometry y="120" width="269" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-38" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-33">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-38" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-33" vertex="1">
           <mxGeometry y="174" width="269" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-39" target="gDDXa2PxPaoqrczVFM1x-45">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-39" target="gDDXa2PxPaoqrczVFM1x-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-39" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-39" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1141" y="7320" width="272" height="238" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-40" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-40" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="gDDXa2PxPaoqrczVFM1x-39" vertex="1">
           <mxGeometry y="26" width="272" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-41" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-41" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-39" vertex="1">
           <mxGeometry y="50" width="272" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-42" value="Dollar(int amount, String currency){&#xa;  this.amount=amount;&#xa;  this.currency = currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-42" value="Dollar(int amount, String currency){&#xa;  this.amount=amount;&#xa;  this.currency = currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-39" vertex="1">
           <mxGeometry y="70" width="272" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-43" value="Money: times(int multiplier){&#xa;  return new Dollar(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-43" value="Money: times(int multiplier){&#xa;  return new Dollar(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-39" vertex="1">
           <mxGeometry y="130" width="272" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-44" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-39">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-44" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-39" vertex="1">
           <mxGeometry y="184" width="272" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-45" target="gDDXa2PxPaoqrczVFM1x-51">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-45" target="gDDXa2PxPaoqrczVFM1x-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-45" value="Test still pass. Let&#39;s update the times() function to return Money instead of Dollar or Franc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-45" value="Test still pass. Let&#39;s update the times() function to return Money instead of Dollar or Franc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1471" y="7210" width="169" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-51" target="gDDXa2PxPaoqrczVFM1x-59">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-51" target="gDDXa2PxPaoqrczVFM1x-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-51" value="We got an error: Money is abstract, can&#39;t be instantiated. We need to change Money to a concrete class" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-51" value="We got an error: Money is abstract, can&#39;t be instantiated. We need to change Money to a concrete class" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1471" y="7760" width="169" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-52" value="Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-52" value="Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1150" y="7620" width="241" height="451" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-53" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-52">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-53" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-52" vertex="1">
           <mxGeometry y="26" width="241" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-54" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-52">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-54" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-52" vertex="1">
           <mxGeometry y="52" width="241" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-55" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-52">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-55" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-52" vertex="1">
           <mxGeometry y="78" width="241" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-56" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-52">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-56" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-52" vertex="1">
           <mxGeometry y="86" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-57" value="public Money: times(int amount)&#xa;{return null;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-52">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-57" value="public Money: times(int amount)&#xa;{return null;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-52" vertex="1">
           <mxGeometry y="126" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-58" value="public String: currency(){&#xa;  return null;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-52">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-58" value="public String: currency(){&#xa;  return null;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-52" vertex="1">
           <mxGeometry y="166" width="241" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-59" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; getClass().equals(money.getClass());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-52">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-59" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; getClass().equals(money.getClass());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-52" vertex="1">
           <mxGeometry y="220" width="241" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-60" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-52">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-60" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-52" vertex="1">
           <mxGeometry y="300" width="241" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-61" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-52">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-61" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-52" vertex="1">
           <mxGeometry y="364" width="241" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-64">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-64" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="7760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-64" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-64" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="830" y="7660" width="269" height="230" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-65" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-64">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-65" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="gDDXa2PxPaoqrczVFM1x-64" vertex="1">
           <mxGeometry y="26" width="269" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-66" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-64">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-66" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-64" vertex="1">
           <mxGeometry y="50" width="269" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-131" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-64">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-131" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-64" vertex="1">
           <mxGeometry y="60" width="269" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-68" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-64">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-68" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-64" vertex="1">
           <mxGeometry y="120" width="269" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-69" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-64">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-69" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-64" vertex="1">
           <mxGeometry y="174" width="269" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-70" target="gDDXa2PxPaoqrczVFM1x-71">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-70" target="gDDXa2PxPaoqrczVFM1x-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-70" value="Test Fail!" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-70" value="Test Fail!" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="698" y="7730" width="90" height="61.25" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-71" target="gDDXa2PxPaoqrczVFM1x-74">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-71" target="gDDXa2PxPaoqrczVFM1x-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-71" value="Error said:&quot;expected: main.Franc@2781e022, but actual is main.Money@57e1b0c" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-71" value="Error said:&quot;expected: main.Franc@2781e022, but actual is main.Money@57e1b0c" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="474" y="7680" width="169" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-74" target="gDDXa2PxPaoqrczVFM1x-75">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-74" target="gDDXa2PxPaoqrczVFM1x-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-74" value="As we see, the assertion in testFrancMultiplication expected Franc to be returned, but we changed the return type in times() function to be Money." style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-74" value="As we see, the assertion in testFrancMultiplication expected Franc to be returned, but we changed the return type in times() function to be Money." style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="245.5" y="7670" width="169" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-75" target="gDDXa2PxPaoqrczVFM1x-78">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-75" target="gDDXa2PxPaoqrczVFM1x-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-75" value="We need to fix our implementation of equals() to check if currency is the same, not the classes. Now, revert the times() function to return new Franc, not Money. Then, wirte a new unit test" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-75" value="We need to fix our implementation of equals() to check if currency is the same, not the classes. Now, revert the times() function to return new Franc, not Money. Then, wirte a new unit test" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="35" y="7661.25" width="169" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-78" target="gDDXa2PxPaoqrczVFM1x-82">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-78" target="gDDXa2PxPaoqrczVFM1x-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-78" value="Unit Test" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-78" value="Unit Test" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="24" y="7870" width="380" height="120" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-79" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-78">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-79" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-78" vertex="1">
           <mxGeometry y="26" width="380" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-80" value="testDifferentClassEquality(){&lt;br&gt;&amp;nbsp; assertTrue(new Money(10, &quot;CHF).equals(new Franc(10, &quot;CHF&quot;));&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-78">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-80" value="testDifferentClassEquality(){&lt;br&gt;&amp;nbsp; assertTrue(new Money(10, &quot;CHF).equals(new Franc(10, &quot;CHF&quot;));&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="gDDXa2PxPaoqrczVFM1x-78" vertex="1">
           <mxGeometry y="34" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-82" target="gDDXa2PxPaoqrczVFM1x-84">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-82" target="gDDXa2PxPaoqrczVFM1x-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-82" value="Test Fail as expected.&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-82" value="Test Fail as expected.&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="130" y="8030" width="90" height="61.25" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-84" target="gDDXa2PxPaoqrczVFM1x-93">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-84" target="gDDXa2PxPaoqrczVFM1x-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-84" value="We need to compare currency, not classes. So, we will fix the equals function" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-84" value="We need to compare currency, not classes. So, we will fix the equals function" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="254" y="8020.63" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-86" target="gDDXa2PxPaoqrczVFM1x-97">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-86" target="gDDXa2PxPaoqrczVFM1x-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-86" value="Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-86" value="Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="504.5" y="7940" width="241" height="451" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-87" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-86">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-87" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-86" vertex="1">
           <mxGeometry y="26" width="241" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-88" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-86">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-88" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-86" vertex="1">
           <mxGeometry y="52" width="241" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-89" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-86">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-89" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-86" vertex="1">
           <mxGeometry y="78" width="241" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-90" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-86">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-90" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-86" vertex="1">
           <mxGeometry y="86" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-91" value="public Money: times(int amount)&#xa;{return null;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-86">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-91" value="public Money: times(int amount)&#xa;{return null;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-86" vertex="1">
           <mxGeometry y="126" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-92" value="public String: currency(){&#xa;  return null;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-86">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-92" value="public String: currency(){&#xa;  return null;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-86" vertex="1">
           <mxGeometry y="166" width="241" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-93" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; currency().equals(money.currency());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-86">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-93" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; currency().equals(money.currency());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-86" vertex="1">
           <mxGeometry y="220" width="241" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-94" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-86">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-94" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-86" vertex="1">
           <mxGeometry y="300" width="241" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-95" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-86">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-95" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-86" vertex="1">
           <mxGeometry y="364" width="241" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-97">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="980" y="8120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-97" value="Test Pass!" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-97" value="Test Pass!" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="850" y="8071" width="90" height="61.25" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-99" target="gDDXa2PxPaoqrczVFM1x-102">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-99" target="gDDXa2PxPaoqrczVFM1x-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-99" value="We can put Money as return value on times() function and the test still Pass!" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-99" value="We can put Money as return value on times() function and the test still Pass!" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="981" y="8080" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-102" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-102" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="840" y="8210" width="269" height="230" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-103" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-102">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-103" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="gDDXa2PxPaoqrczVFM1x-102" vertex="1">
           <mxGeometry y="26" width="269" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-104" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-102">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-104" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-102" vertex="1">
           <mxGeometry y="50" width="269" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-132" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-102">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-132" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-102" vertex="1">
           <mxGeometry y="60" width="269" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-106" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-102">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-106" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-102" vertex="1">
           <mxGeometry y="120" width="269" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-107" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-102">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-107" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-102" vertex="1">
           <mxGeometry y="174" width="269" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-109" target="gDDXa2PxPaoqrczVFM1x-115">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-109" target="gDDXa2PxPaoqrczVFM1x-115" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-109" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-109" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1125.75" y="8210" width="272" height="238" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-110" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-109">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-110" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="gDDXa2PxPaoqrczVFM1x-109" vertex="1">
           <mxGeometry y="26" width="272" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-111" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-109">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-111" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-109" vertex="1">
           <mxGeometry y="50" width="272" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-135" value="Dollar(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-109">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-135" value="Dollar(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-109" vertex="1">
           <mxGeometry y="70" width="272" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-113" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-109">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-113" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-109" vertex="1">
           <mxGeometry y="130" width="272" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-114" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-109">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-114" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-109" vertex="1">
           <mxGeometry y="184" width="272" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-115" target="gDDXa2PxPaoqrczVFM1x-117">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-115" target="gDDXa2PxPaoqrczVFM1x-117" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-115" value="Summary:&lt;br&gt;1. Reconciled two methods: times() by frist inlining the m3ethonds they called and then replacing constant with variables&lt;br&gt;2. Tried a change (returning Money instead of Franc or Dollar) and let the tests tell us if it worked&lt;br&gt;3. Back out an experiment and wrote another test, Making the tests work made the experiement work" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-115" value="Summary:&lt;br&gt;1. Reconciled two methods: times() by frist inlining the m3ethonds they called and then replacing constant with variables&lt;br&gt;2. Tried a change (returning Money instead of Franc or Dollar) and let the tests tell us if it worked&lt;br&gt;3. Back out an experiment and wrote another test, Making the tests work made the experiement work" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1420" y="8210" width="220" height="252" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-117" target="gDDXa2PxPaoqrczVFM1x-122">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-117" target="gDDXa2PxPaoqrczVFM1x-122" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-117" value="Next, we see that a constructor is not reason enough to have a subclass, we want to delete the subclasses." style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-117" value="Next, we see that a constructor is not reason enough to have a subclass, we want to delete the subclasses." style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1450" y="8540" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-119" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1150" y="8510" width="269" height="288" as="geometry">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-119" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1144" y="8515" width="269" height="288" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-120" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-119">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-120" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="gDDXa2PxPaoqrczVFM1x-119" vertex="1">
           <mxGeometry y="26" width="269" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-121" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-119">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-121" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-119" vertex="1">
           <mxGeometry y="50" width="269" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-137" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-119">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-137" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-119" vertex="1">
           <mxGeometry y="60" width="269" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-122" value="static Money franc(int amount){&#xa;  return new Money(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-119">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-122" value="static Money franc(int amount){&#xa;  return new Money(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-119" vertex="1">
           <mxGeometry y="120" width="269" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-123" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-119">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-123" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-119" vertex="1">
           <mxGeometry y="180" width="269" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-124" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-119">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-124" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-119" vertex="1">
           <mxGeometry y="234" width="269" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-125" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="838.5" y="8510" width="272" height="298" as="geometry">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-125" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="850" y="8505" width="272" height="298" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-126" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-125">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-126" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="gDDXa2PxPaoqrczVFM1x-125" vertex="1">
           <mxGeometry y="26" width="272" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-127" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-125">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-127" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-125" vertex="1">
           <mxGeometry y="50" width="272" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-136" value="Dollar(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-125">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-136" value="Dollar(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-125" vertex="1">
           <mxGeometry y="70" width="272" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-133" value="static Money dollar(int amount){&#xa;  return new Money(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-125">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-133" value="static Money dollar(int amount){&#xa;  return new Money(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="gDDXa2PxPaoqrczVFM1x-125" vertex="1">
           <mxGeometry y="130" width="272" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-129" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-125">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-129" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-125" vertex="1">
           <mxGeometry y="190" width="272" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-130" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-125">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-130" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-125" vertex="1">
           <mxGeometry y="244" width="272" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-138" target="gDDXa2PxPaoqrczVFM1x-148">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-138" target="gDDXa2PxPaoqrczVFM1x-148" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-138" value="Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-138" value="Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="530" y="8510" width="241" height="451" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-139" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-138">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-139" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-138" vertex="1">
           <mxGeometry y="26" width="241" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-140" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-138">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-140" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-138" vertex="1">
           <mxGeometry y="52" width="241" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-141" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-138">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-141" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-138" vertex="1">
           <mxGeometry y="78" width="241" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-142" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-138">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-142" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-138" vertex="1">
           <mxGeometry y="86" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-143" value="public Money: times(int amount)&#xa;{return null;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-138">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-143" value="public Money: times(int amount)&#xa;{return null;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-138" vertex="1">
           <mxGeometry y="126" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-144" value="public String: currency(){&#xa;  return null;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-138">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-144" value="public String: currency(){&#xa;  return null;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-138" vertex="1">
           <mxGeometry y="166" width="241" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-145" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; currency().equals(money.currency());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-138">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-145" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; currency().equals(money.currency());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-138" vertex="1">
           <mxGeometry y="220" width="241" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-146" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-138">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-146" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-138" vertex="1">
           <mxGeometry y="300" width="241" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-147" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-138">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-147" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="gDDXa2PxPaoqrczVFM1x-138" vertex="1">
           <mxGeometry y="364" width="241" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-148" target="gDDXa2PxPaoqrczVFM1x-150">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-148" target="gDDXa2PxPaoqrczVFM1x-150" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-148" value="Since testEquality has some duplication (as per logic), lets delete 2 lines and make it simpler. Then we can delete testFrancMultiplication" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-148" value="Since testEquality has some duplication (as per logic), lets delete 2 lines and make it simpler. Then we can delete testFrancMultiplication" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="199" y="8480" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-150" target="gDDXa2PxPaoqrczVFM1x-156">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gDDXa2PxPaoqrczVFM1x-150" target="gDDXa2PxPaoqrczVFM1x-156" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-150" value="Unit Test" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-150" value="Unit Test" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="45" y="8710" width="310" height="230" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-151" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-150">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-151" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="gDDXa2PxPaoqrczVFM1x-150" vertex="1">
           <mxGeometry y="26" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-152" value="testMultiplication(){&lt;br&gt;&amp;nbsp; Money five = Money.dollar(5);&lt;br&gt;&amp;nbsp; assertEquals(new Dollar(10), five.times(2));&lt;br&gt;&amp;nbsp; assertEquals(new Dollar(15), five.times(3))&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-150">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-152" value="testMultiplication(){&lt;br&gt;&amp;nbsp; Money five = Money.dollar(5);&lt;br&gt;&amp;nbsp; assertEquals(new Dollar(10), five.times(2));&lt;br&gt;&amp;nbsp; assertEquals(new Dollar(15), five.times(3))&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="gDDXa2PxPaoqrczVFM1x-150" vertex="1">
           <mxGeometry y="34" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-154" value="testEquality(){&lt;br&gt;&amp;nbsp; assertTrue(Money.dollar(5).equals(Money.dollar(5));&lt;br&gt;&amp;nbsp; assertFalse(Money.dollar(5).equals(Money.dollar(6));&lt;br&gt;&amp;nbsp; assertFalse(Money.franc(5).equals(Money.dollar(5));&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gDDXa2PxPaoqrczVFM1x-150">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-154" value="testEquality(){&lt;br&gt;&amp;nbsp; assertTrue(Money.dollar(5).equals(Money.dollar(5));&lt;br&gt;&amp;nbsp; assertFalse(Money.dollar(5).equals(Money.dollar(6));&lt;br&gt;&amp;nbsp; assertFalse(Money.franc(5).equals(Money.dollar(5));&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="gDDXa2PxPaoqrczVFM1x-150" vertex="1">
           <mxGeometry y="124" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="gDDXa2PxPaoqrczVFM1x-156" value="Let&#39;s do addition!" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gDDXa2PxPaoqrczVFM1x-156" value="Let&#39;s do addition!" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="135" y="8990" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-0" target="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-0" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="37" y="9370" width="269" height="288" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-1" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="WoO8JoDfozQIKAlJN786-0">
+          <mxGeometry y="26" width="269" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-0">
+          <mxGeometry y="50" width="269" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-3" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="WoO8JoDfozQIKAlJN786-0">
+          <mxGeometry y="60" width="269" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-4" value="static Money franc(int amount){&#xa;  return new Money(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="WoO8JoDfozQIKAlJN786-0">
+          <mxGeometry y="120" width="269" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-5" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1" vertex="1" parent="WoO8JoDfozQIKAlJN786-0">
+          <mxGeometry y="180" width="269" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-6" value="String: currency()){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1" vertex="1" parent="WoO8JoDfozQIKAlJN786-0">
+          <mxGeometry y="234" width="269" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-7" target="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-7" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="346" y="9370" width="272" height="298" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-8" value="String: currency (-)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="WoO8JoDfozQIKAlJN786-7">
+          <mxGeometry y="26" width="272" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-7">
+          <mxGeometry y="50" width="272" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-10" value="Dollar(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="WoO8JoDfozQIKAlJN786-7">
+          <mxGeometry y="70" width="272" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-11" value="static Money dollar(int amount){&#xa;  return new Money(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="WoO8JoDfozQIKAlJN786-7">
+          <mxGeometry y="130" width="272" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-12" value="Money: times(int multiplier){&#xa;  return new Money(amount*multiplier, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1" vertex="1" parent="WoO8JoDfozQIKAlJN786-7">
+          <mxGeometry y="190" width="272" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-13" value="String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=1" vertex="1" parent="WoO8JoDfozQIKAlJN786-7">
+          <mxGeometry y="244" width="272" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.472;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-14" target="WoO8JoDfozQIKAlJN786-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WoO8JoDfozQIKAlJN786-14" target="WoO8JoDfozQIKAlJN786-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-14" value="Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="9810" width="241" height="440" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-15" value="protected int amount " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry y="26" width="241" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-16" value="protected String currency;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry y="52" width="241" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-17" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry y="78" width="241" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-18" value="public Money(int amount, String currency);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry y="86" width="241" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-19" value="public Money: times(int multiplier)&#xa;{return new Money(this.amount*multiplier,&#xa; this.currency;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry y="126" width="241" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-21" value="boolean: equals(Object object){&#xa;  Money  money= (Money) object &#xa;  return amount == money.amount &#xa;  &amp;&amp; currency().equals(money.currency());&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry y="190" width="241" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-22" value="public static Dollar: dollar(int amount) {&#xa;   return new Dollar(amount, &quot;USD&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry y="270" width="241" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-23" value="public static Franc: franc(int amount) {&#xa;   return new Franc(amount, &quot;CHF&quot;);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry y="334" width="241" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-20" value="public String: currency(){&#xa;  return currency;&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="WoO8JoDfozQIKAlJN786-14">
+          <mxGeometry y="384" width="241" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-26" value="Franc extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="45" y="10360" width="269" height="120" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-28" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-26">
+          <mxGeometry y="26" width="269" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-29" value="Franc(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="WoO8JoDfozQIKAlJN786-26">
+          <mxGeometry y="36" width="269" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-33" value="Dollar extends Money" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="396" y="10370" width="272" height="130" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-35" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WoO8JoDfozQIKAlJN786-33">
+          <mxGeometry y="26" width="272" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WoO8JoDfozQIKAlJN786-36" value="Dollar(int amount, String currency){&#xa;  super(amount, currency);&#xa;}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="WoO8JoDfozQIKAlJN786-33">
+          <mxGeometry y="46" width="272" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
